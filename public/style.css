@@ -1,0 +1,57 @@
+/*  .footer {
+  width: 100%;
+  height: 300px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+}  */
+
+.footer {
+  display: flex;
+  justify-content: space-between; /* Chia đều các phần tử */
+  padding: 20px;
+  background-color: gray;
+  border-top: 1px solid #ccc;
+}
+
+.footer div {
+  flex: 1; /* Chia đều chiều rộng giữa các phần tử con */
+  margin: 0 15px; /* Khoảng cách giữa các khối */
+}
+
+.footer strong {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.footer .time,
+.footer .information,
+.footer .contact {
+  max-width: 300px; /* Giới hạn chiều rộng mỗi khối nếu cần */
+}
+
+.footer ul {
+  padding: 0;
+}
+
+.footer li {
+  margin-bottom: 5px;
+}
+
+.footer li {
+  display: flex;
+  align-items: center; /* Căn giữa hình ảnh và văn bản theo chiều dọc */
+  margin-bottom: 10px;
+}
+
+.footer li img {
+  width: 20px; /* Điều chỉnh kích thước hình ảnh */
+  height: 20px; /* Giữ tỷ lệ vuông cho ảnh */
+  margin-right: 10px; /* Tạo khoảng cách giữa hình ảnh và văn bản */
+}
+
+li:hover {
+  color: red;
+  font-style: italic;
+}
